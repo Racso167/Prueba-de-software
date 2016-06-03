@@ -1,0 +1,27 @@
+public class Calculadora 
+{
+    public static void main(String[] args)throws Exception 
+    {
+        System.out.println(" Hola, soy Calculadora ");
+        BufferedReader teclado=new BufferedReader(new InputStreamReader(System.in));
+        int a,b,c;
+        String operacion;
+        System.out.println(" Ingrese un numero ");
+        a=Integer.parseInt(teclado.readLine());
+        System.out.println(" Ingrese otro numero ");
+        b=Integer.parseInt(teclado.readLine());
+        System.out.println(" Ingrese operacion (suma, resta) ");
+        operacion=teclado.readLine();
+        
+        if(operacion.equals("suma"))
+        {
+            c=a+b;
+        }
+        else
+        {
+            c=a-b;
+        
+        }
+        System.out.println(" El resultado es  "+c);
+    }
+}
