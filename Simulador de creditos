@@ -2,7 +2,7 @@ public class Calculadora
 {
     public static void main(String[] args)throws Exception 
     {
-        System.out.println(" Hola, soy Calculadora ");
+        System.out.println(" Hola,y soy tu calculadora");
         BufferedReader teclado=new BufferedReader(new InputStreamReader(System.in));
         int a,b,c;
         String operacion;
